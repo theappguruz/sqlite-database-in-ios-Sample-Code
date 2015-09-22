@@ -17,11 +17,6 @@
 		EAE5D2CE18B86A55001BB4FB /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAE5D2CC18B86A55001BB4FB /* Main_iPad.storyboard */; };
 		EAE5D2D118B86A55001BB4FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE5D2D018B86A55001BB4FB /* ViewController.m */; };
 		EAE5D2D318B86A55001BB4FB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAE5D2D218B86A55001BB4FB /* Images.xcassets */; };
-		EAE5D2DA18B86A55001BB4FB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAE5D2D918B86A55001BB4FB /* XCTest.framework */; };
-		EAE5D2DB18B86A55001BB4FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAE5D2B718B86A55001BB4FB /* Foundation.framework */; };
-		EAE5D2DC18B86A55001BB4FB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAE5D2BB18B86A55001BB4FB /* UIKit.framework */; };
-		EAE5D2E418B86A55001BB4FB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EAE5D2E218B86A55001BB4FB /* InfoPlist.strings */; };
-		EAE5D2E618B86A55001BB4FB /* DataBaseDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE5D2E518B86A55001BB4FB /* DataBaseDemoTests.m */; };
 		EAE5D2FB18B87473001BB4FB /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE5D2F218B87473001BB4FB /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		EAE5D2FC18B87473001BB4FB /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE5D2F418B87473001BB4FB /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		EAE5D2FD18B87473001BB4FB /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE5D2F618B87473001BB4FB /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -33,16 +28,6 @@
 		EAE5D30B18B8772A001BB4FB /* studentdb.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = EAE5D30A18B8772A001BB4FB /* studentdb.sqlite */; };
 		EAE5D30D18B87A98001BB4FB /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EAE5D30C18B87A98001BB4FB /* libsqlite3.0.dylib */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		EAE5D2DD18B86A55001BB4FB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EAE5D2AC18B86A55001BB4FB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EAE5D2B318B86A55001BB4FB;
-			remoteInfo = DataBaseDemo;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		EAE5D2B418B86A55001BB4FB /* DataBaseDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataBaseDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,7 +45,6 @@
 		EAE5D2CF18B86A55001BB4FB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		EAE5D2D018B86A55001BB4FB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EAE5D2D218B86A55001BB4FB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		EAE5D2D818B86A55001BB4FB /* DataBaseDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataBaseDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAE5D2D918B86A55001BB4FB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		EAE5D2E118B86A55001BB4FB /* DataBaseDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DataBaseDemoTests-Info.plist"; sourceTree = "<group>"; };
 		EAE5D2E318B86A55001BB4FB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -97,16 +81,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EAE5D2D518B86A55001BB4FB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EAE5D2DA18B86A55001BB4FB /* XCTest.framework in Frameworks */,
-				EAE5D2DC18B86A55001BB4FB /* UIKit.framework in Frameworks */,
-				EAE5D2DB18B86A55001BB4FB /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -124,7 +98,6 @@
 			isa = PBXGroup;
 			children = (
 				EAE5D2B418B86A55001BB4FB /* DataBaseDemo.app */,
-				EAE5D2D818B86A55001BB4FB /* DataBaseDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -246,24 +219,6 @@
 			productReference = EAE5D2B418B86A55001BB4FB /* DataBaseDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		EAE5D2D718B86A55001BB4FB /* DataBaseDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EAE5D2EC18B86A55001BB4FB /* Build configuration list for PBXNativeTarget "DataBaseDemoTests" */;
-			buildPhases = (
-				EAE5D2D418B86A55001BB4FB /* Sources */,
-				EAE5D2D518B86A55001BB4FB /* Frameworks */,
-				EAE5D2D618B86A55001BB4FB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				EAE5D2DE18B86A55001BB4FB /* PBXTargetDependency */,
-			);
-			name = DataBaseDemoTests;
-			productName = DataBaseDemoTests;
-			productReference = EAE5D2D818B86A55001BB4FB /* DataBaseDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -272,11 +227,6 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "TheAppGuruz-New-6";
-				TargetAttributes = {
-					EAE5D2D718B86A55001BB4FB = {
-						TestTargetID = EAE5D2B318B86A55001BB4FB;
-					};
-				};
 			};
 			buildConfigurationList = EAE5D2AF18B86A55001BB4FB /* Build configuration list for PBXProject "DataBaseDemo" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -292,7 +242,6 @@
 			projectRoot = "";
 			targets = (
 				EAE5D2B318B86A55001BB4FB /* DataBaseDemo */,
-				EAE5D2D718B86A55001BB4FB /* DataBaseDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -307,14 +256,6 @@
 				EAE5D2CB18B86A55001BB4FB /* Main_iPhone.storyboard in Resources */,
 				EAE5D2C218B86A55001BB4FB /* InfoPlist.strings in Resources */,
 				EAE5D30B18B8772A001BB4FB /* studentdb.sqlite in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EAE5D2D618B86A55001BB4FB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EAE5D2E418B86A55001BB4FB /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,23 +280,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EAE5D2D418B86A55001BB4FB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EAE5D2E618B86A55001BB4FB /* DataBaseDemoTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		EAE5D2DE18B86A55001BB4FB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = EAE5D2B318B86A55001BB4FB /* DataBaseDemo */;
-			targetProxy = EAE5D2DD18B86A55001BB4FB /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		EAE5D2C018B86A55001BB4FB /* InfoPlist.strings */ = {
@@ -473,7 +398,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DataBaseDemo/DataBaseDemo-Prefix.pch";
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = "DataBaseDemo/DataBaseDemo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -486,52 +411,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DataBaseDemo/DataBaseDemo-Prefix.pch";
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = "DataBaseDemo/DataBaseDemo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		EAE5D2ED18B86A55001BB4FB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DataBaseDemo.app/DataBaseDemo";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DataBaseDemo/DataBaseDemo-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "DataBaseDemoTests/DataBaseDemoTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		EAE5D2EE18B86A55001BB4FB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DataBaseDemo.app/DataBaseDemo";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DataBaseDemo/DataBaseDemo-Prefix.pch";
-				INFOPLIST_FILE = "DataBaseDemoTests/DataBaseDemoTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
@@ -554,14 +437,7 @@
 				EAE5D2EB18B86A55001BB4FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		EAE5D2EC18B86A55001BB4FB /* Build configuration list for PBXNativeTarget "DataBaseDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EAE5D2ED18B86A55001BB4FB /* Debug */,
-				EAE5D2EE18B86A55001BB4FB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
